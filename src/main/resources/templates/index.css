@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Бежевый оттенок фона */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom:20px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    display:flex;
+    margin-bottom:10px;
+
+
+}
+.container {
+    width: 90%; /* Изменяем ширину контейнера на 90% */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Белый фон контейнера */
+    border-radius: 10px; /* Закругленные углы контейнера */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень контейнера */
+    margin-bottom:20px;
+}
+h1 {
+    margin-top: 0;
+}
+
+.header-href{
+    display:flex;
+    flex-direction:row;
+    column-gap:30px;
+}
+p {
+    margin-bottom: 20px;
+}
+h2 {
+    margin-top: 30px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    margin: 0;
+}
+.site-info {
+    margin-top: 50px; /* Отступ перед блоками информации о сайте */
+    display: flex;
+    justify-content: space-between;
+}
+.site-info-block {
+    line-height:30px;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.site-info-block a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+.footer-text{
+    padding-top:30px;
+}
